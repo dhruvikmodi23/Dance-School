@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Bharatanatyam Basics",
+        "slug": "bharatanatyam-basics",
+        "description": "Learn the foundational movements and expressions of Bharatanatyam, a classical dance of Tamil Nadu.",
+        "price": 89.99,
+        "instructor": "Ananya Iyer",
+        "isFeatured": true,
+        "image": "/courses/bharatanatyam.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Kathak Rhythm & Grace",
+        "slug": "kathak-rhythm-grace",
+        "description": "Dive into Kathak with spins, footwork, and storytelling through graceful movements.",
+        "price": 99.99,
+        "instructor": "Ravi Mehta",
+        "isFeatured": false,
+        "image": "/courses/kathak.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Garba & Dandiya Raas",
+        "slug": "garba-dandiya-raas",
+        "description": "Celebrate the spirit of Gujarat with energetic Garba and rhythmic Dandiya moves.",
+        "price": 79.99,
+        "instructor": "Rupal Shah",
+        "isFeatured": true,
+        "image": "/courses/garba.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Odissi Dance Foundations",
+        "slug": "odissi-dance-foundations",
+        "description": "Learn the elegant poses and flowing movements of Odissi, the classical dance of Odisha.",
+        "price": 109.99,
+        "instructor": "Priya Das",
+        "isFeatured": false,
+        "image": "/courses/odissi.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Bhangra for Beginners",
+        "slug": "bhangra-for-beginners",
+        "description": "Get energized with basic Bhangra steps, a fun and vibrant dance from Punjab.",
+        "price": 69.99,
+        "instructor": "Amrit Singh",
+        "isFeatured": false,
+        "image": "/courses/bhangra.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Mohiniyattam Grace",
+        "slug": "mohiniyattam-grace",
+        "description": "Explore the gentle, swaying style of Mohiniyattam, a classical dance from Kerala.",
+        "price": 99.99,
+        "instructor": "Lakshmi Nair",
+        "isFeatured": true,
+        "image": "/courses/mohiniyattam.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Sattriya Dance Journey",
+        "slug": "sattriya-dance-journey",
+        "description": "Begin your journey into Sattriya, a sacred classical dance from Assam.",
+        "price": 89.99,
+        "instructor": "Rohit Bhuyan",
+        "isFeatured": false,
+        "image": "/courses/sattriya.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Contemporary Dance Fusion",
+        "slug": "contemporary-dance-fusion",
+        "description": "Blend classical, jazz, and modern dance styles in this expressive fusion course.",
+        "price": 119.99,
+        "instructor": "Aisha Khan",
+        "isFeatured": true,
+        "image": "/courses/contemporary.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Ghoomar Traditional Steps",
+        "slug": "ghoomar-traditional-steps",
+        "description": "Twirl through the colorful traditional dance of Rajasthan – Ghoomar.",
+        "price": 74.99,
+        "instructor": "Meera Rathore",
+        "isFeatured": false,
+        "image": "/courses/ghoomar.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Hip-Hop Indian Style",
+        "slug": "hiphop-indian-style",
+        "description": "Master hip-hop dance techniques with an Indian twist for urban performances.",
+        "price": 129.99,
+        "instructor": "Rajiv Malhotra",
+        "isFeatured": true,
+        "image": "/courses/hiphop.jpg"
+      }
+    ]
+  }
+  
