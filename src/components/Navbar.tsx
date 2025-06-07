@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 
 function Navbar({ className }: { className?: string }) {
@@ -11,20 +12,27 @@ function Navbar({ className }: { className?: string }) {
     className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
         <Menu setActive={setActive}>
+            <Link href={"/"}>
             <MenuItem setActive={setActive} active={active} item="Home">
 
             </MenuItem>
+            </Link>
+            
             <MenuItem setActive={setActive} active={active} item="Dance Courses">
                 <div className="flex flex-col space-y-4 text-sm">
-                 <HoveredLink href="/web-dev">Garba</HoveredLink>
-                 <HoveredLink href="/interface-design">Kathakali</HoveredLink>
-                <HoveredLink href="/seo">Bharatanatyam</HoveredLink>
-                <HoveredLink href="/branding">Sattriya </HoveredLink>
+                 <HoveredLink href="/courses">Garba</HoveredLink>
+                 <HoveredLink href="/courses">Kathakali</HoveredLink>
+                <HoveredLink href="/courses">Bharatanatyam</HoveredLink>
+                <HoveredLink href="/courses">Sattriya </HoveredLink>
                 </div>
             </MenuItem>
+            
+            
+            <Link href={"/contact"}>
             <MenuItem setActive={setActive} active={active} item="Contact Us">
                 
             </MenuItem>
+            </Link>
         </Menu>
       
     </div>

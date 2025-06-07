@@ -1,0 +1,55 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Bharatanatyam Basics",
+        "slug": "bharatanatyam-basics",
+        "description": "Learn the foundational movements and expressions of Bharatanatyam, a classical dance of Tamil Nadu.",
+        "price": 89.99,
+        "instructor": "Ananya Iyer",
+        "isFeatured": true,
+        "image": "/Bharatanatyam.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Kathak Rhythm & Grace",
+        "slug": "kathak-rhythm-grace",
+        "description": "Dive into Kathak with spins, footwork, and storytelling through graceful movements.",
+        "price": 99.99,
+        "instructor": "Ravi Mehta",
+        "isFeatured": false,
+        "image": "/Khathak.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Garba & Dandiya Raas",
+        "slug": "garba-dandiya-raas",
+        "description": "Celebrate the spirit of Gujarat with energetic Garba and rhythmic Dandiya moves.",
+        "price": 79.99,
+        "instructor": "Rupal Shah",
+        "isFeatured": true,
+        "image": "/Garba.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Bhangra for Beginners",
+        "slug": "bhangra-for-beginners",
+        "description": "Get energized with basic Bhangra steps, a fun and vibrant dance from Punjab.",
+        "price": 69.99,
+        "instructor": "Amrit Singh",
+        "isFeatured": false,
+        "image": "/Bhangra.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Hip-Hop Indian Style",
+        "slug": "hiphop-indian-style",
+        "description": "Master hip-hop dance techniques with an Indian twist for urban performances.",
+        "price": 129.99,
+        "instructor": "Rajiv Malhotra",
+        "isFeatured": true,
+        "image": "/Hip-hop.jpg"
+      }
+    ]
+  }
+  
